@@ -15,3 +15,5 @@ export * from './events/models/ticket-created-event';
 export * from './events/models/ticket-updated-event';
 export * from './events/nats-listener';
 export * from './events/nats-publisher';
+
+export * from './events/enums/order-status';
