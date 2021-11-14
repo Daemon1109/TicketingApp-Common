@@ -11,9 +11,13 @@ export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
 export * from './events/enums/subjects';
+export * from './events/enums/order-status';
+
 export * from './events/models/ticket-created-event';
 export * from './events/models/ticket-updated-event';
+
+export * from './events/models/order-created-event';
+export * from './events/models/order-cancelled-event';
+
 export * from './events/nats-listener';
 export * from './events/nats-publisher';
-
-export * from './events/enums/order-status';
