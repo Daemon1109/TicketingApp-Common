@@ -10,7 +10,7 @@ export abstract class NATSListener<T extends Event> {
   abstract subject: T['subject'];
   abstract queueGroupName: string;
   abstract onMessage(data: T['data'], msg: Message): void;
-  private client: Stan;
+  protected client: Stan;
   protected ackWaitTime: number = 5 * 1000;
 
   constructor(client: Stan) {
