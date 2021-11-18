@@ -21,5 +21,7 @@ export * from './events/models/order-cancelled-event';
 
 export * from './events/models/expiration-completed-event';
 
+export * from './events/models/payment-created-event';
+
 export * from './events/nats-listener';
 export * from './events/nats-publisher';
